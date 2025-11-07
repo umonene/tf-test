@@ -23,15 +23,9 @@ terraform {
 }
 
 
-# Variable blocks directly within the main.tf. No arguments necessary.
-variable "aws_access_key" {}
-variable "aws_secret_key" {}
 
-# provider arguments call on the variables which then call on terraform.tfvars for the values.
 provider "aws" {
   region = "us-east-2"
-#  access_key = var.aws_access_key
-#  secret_key = var.aws_secret_key
 }
 
 # Add .gitignore file in this directory with the terraform.tfvars
