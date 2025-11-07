@@ -1,0 +1,708 @@
+2025-11-06T07:56:58.142-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T07:56:58.143-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T07:56:58.143-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T07:56:58.143-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T07:56:58.143-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T07:56:58.143-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T07:56:58.143-0500 [INFO]  CLI args: []string{"/usr/bin/terraform", "terraform", "in", "terraform"}
+2025-11-06T07:56:58.143-0500 [TRACE] Stdout is not a terminal
+2025-11-06T07:56:58.143-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T07:56:58.143-0500 [TRACE] Stdin is a terminal
+2025-11-06T07:56:58.143-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T07:56:58.143-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T07:56:58.143-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T07:56:58.143-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T07:56:58.143-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T07:56:58.143-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T07:56:58.143-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T07:56:58.143-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T07:56:58.143-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T07:56:58.144-0500 [INFO]  CLI command args: []string{"terraform", "in", "terraform"}
+2025-11-06T07:57:01.612-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T07:57:01.614-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T07:57:01.614-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T07:57:01.614-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T07:57:01.614-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T07:57:01.614-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T07:57:01.614-0500 [INFO]  CLI args: []string{"terraform", "init"}
+2025-11-06T07:57:01.614-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T07:57:01.614-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T07:57:01.614-0500 [TRACE] Stdin is a terminal
+2025-11-06T07:57:01.614-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T07:57:01.614-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T07:57:01.614-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T07:57:01.614-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T07:57:01.614-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T07:57:01.614-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T07:57:01.614-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T07:57:01.614-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T07:57:01.614-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T07:57:01.615-0500 [INFO]  CLI command args: []string{"init"}
+2025-11-06T07:57:01.615-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T07:57:01.615-0500 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2025-11-06T07:57:01.615-0500 [TRACE] Meta.Backend: moving from default local state only to "cloud" backend
+2025-11-06T07:57:01.615-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T07:57:01.624-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T07:57:01.625-0500 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2025-11-06T07:57:01.625-0500 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2025-11-06T07:57:01.625-0500 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2025-11-06T07:57:01.625-0500 [TRACE] statemgr.Filesystem: read nil snapshot
+2025-11-06T07:57:01.625-0500 [TRACE] Meta.Backend: ignoring local "default" workspace because its state is empty
+2025-11-06T07:57:01.625-0500 [TRACE] Meta.Backend: HCP Terraform or Terraform Enterprise mode initialization type: ConfigChangeInPlace
+2025-11-06T07:57:01.625-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T07:57:01.625-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T07:57:01.625-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T07:57:01.625-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T07:57:01.625-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T07:57:01.625-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T07:57:01.625-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T07:57:01.625-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T07:57:01.868-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T07:57:01.868-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T08:05:03.770-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:05:03.770-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:05:03.770-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:05:03.770-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:05:03.770-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:05:03.770-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:05:03.770-0500 [INFO]  CLI args: []string{"terraform", "login"}
+2025-11-06T08:05:03.770-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T08:05:03.770-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:05:03.770-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:05:03.770-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:05:03.770-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:05:03.770-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:05:03.770-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:05:03.770-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:05:03.770-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:05:03.770-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:05:03.770-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:05:03.770-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:05:03.771-0500 [INFO]  CLI command args: []string{"login"}
+2025-11-06T08:05:03.771-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:05:03.996-0500 [DEBUG] command: asking for input: "Do you want to proceed?"
+2025-11-06T08:05:12.388-0500 [DEBUG] command: asking for input: "Token for app.terraform.io:"
+2025-11-06T08:20:44.246-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:20:44.246-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:20:44.246-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:20:44.247-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:20:44.247-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:20:44.247-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:20:44.247-0500 [INFO]  CLI args: []string{"terraform", "login"}
+2025-11-06T08:20:44.247-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T08:20:44.247-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:20:44.247-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:20:44.247-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:20:44.247-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:20:44.247-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:20:44.247-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:20:44.247-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:20:44.247-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:20:44.247-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:20:44.247-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:20:44.247-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:20:44.264-0500 [INFO]  CLI command args: []string{"login"}
+2025-11-06T08:20:44.264-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:20:44.481-0500 [DEBUG] command: asking for input: "Do you want to proceed?"
+2025-11-06T08:20:48.049-0500 [DEBUG] command: asking for input: "Token for app.terraform.io:"
+2025-11-06T08:21:27.528-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:21:27.528-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:21:27.528-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:21:27.528-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:21:27.528-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:21:27.528-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:21:27.528-0500 [INFO]  CLI args: []string{"terraform", "login"}
+2025-11-06T08:21:27.528-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T08:21:27.528-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:21:27.528-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:21:27.528-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:21:27.528-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:21:27.529-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:21:27.529-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:21:27.529-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:21:27.529-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:21:27.529-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:21:27.529-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:21:27.529-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:21:27.529-0500 [INFO]  CLI command args: []string{"login"}
+2025-11-06T08:21:27.529-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:21:27.847-0500 [DEBUG] command: asking for input: "Do you want to proceed?"
+2025-11-06T08:21:30.187-0500 [DEBUG] command: asking for input: "Token for app.terraform.io:"
+2025-11-06T08:23:03.414-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:23:03.414-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:23:03.414-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:23:03.414-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:23:03.414-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:23:03.414-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:23:03.414-0500 [INFO]  CLI args: []string{"/usr/bin/terraform", "terraform", "f", "terraform"}
+2025-11-06T08:23:03.414-0500 [TRACE] Stdout is not a terminal
+2025-11-06T08:23:03.415-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:23:03.415-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:23:03.415-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:23:03.415-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:23:03.415-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:23:03.415-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:23:03.415-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:23:03.415-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:23:03.415-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:23:03.415-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:23:03.415-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:23:03.415-0500 [INFO]  CLI command args: []string{"terraform", "f", "terraform"}
+2025-11-06T08:23:04.471-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:23:04.471-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:23:04.471-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:23:04.471-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:23:04.471-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:23:04.471-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:23:04.471-0500 [INFO]  CLI args: []string{"/usr/bin/terraform", "terraform", "fm", "terraform"}
+2025-11-06T08:23:04.471-0500 [TRACE] Stdout is not a terminal
+2025-11-06T08:23:04.471-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:23:04.471-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:23:04.471-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:23:04.471-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:23:04.472-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:23:04.472-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:23:04.472-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:23:04.472-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:23:04.472-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:23:04.472-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:23:04.472-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:23:04.472-0500 [INFO]  CLI command args: []string{"terraform", "fm", "terraform"}
+2025-11-06T08:23:05.570-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:23:05.570-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:23:05.570-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:23:05.570-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:23:05.570-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:23:05.570-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:23:05.570-0500 [INFO]  CLI args: []string{"terraform", "fmt"}
+2025-11-06T08:23:05.570-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T08:23:05.570-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:23:05.570-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:23:05.570-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:23:05.570-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:23:05.570-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:23:05.570-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:23:05.570-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:23:05.570-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:23:05.570-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:23:05.570-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:23:05.570-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:23:05.571-0500 [INFO]  CLI command args: []string{"fmt"}
+2025-11-06T08:23:05.571-0500 [TRACE] terraform fmt: looking for files in .
+2025-11-06T08:23:05.571-0500 [TRACE] terraform fmt: Formatting main.tf
+2025-11-06T08:23:05.572-0500 [TRACE] terraform fmt: Formatting terraform.tfvars
+2025-11-06T08:23:09.359-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:23:09.359-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:23:09.359-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:23:09.359-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:23:09.359-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:23:09.359-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:23:09.359-0500 [INFO]  CLI args: []string{"terraform", "login"}
+2025-11-06T08:23:09.359-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T08:23:09.359-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:23:09.359-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:23:09.359-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:23:09.359-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:23:09.359-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:23:09.359-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:23:09.359-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:23:09.359-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:23:09.359-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:23:09.359-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:23:09.359-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:23:09.360-0500 [INFO]  CLI command args: []string{"login"}
+2025-11-06T08:23:09.360-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:23:09.642-0500 [DEBUG] command: asking for input: "Do you want to proceed?"
+2025-11-06T08:23:19.375-0500 [DEBUG] command: asking for input: "Token for app.terraform.io:"
+2025-11-06T08:24:27.637-0500 [TRACE] HTTP client GET request to https://app.terraform.io/api/terraform/motd
+2025-11-06T08:26:27.976-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:26:27.976-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:26:27.976-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:26:27.976-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:26:27.976-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:26:27.976-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:26:27.976-0500 [INFO]  CLI args: []string{"/usr/bin/terraform", "terraform", "in", "terraform"}
+2025-11-06T08:26:27.976-0500 [TRACE] Stdout is not a terminal
+2025-11-06T08:26:27.976-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:26:27.976-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:26:27.976-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:26:27.976-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:26:27.977-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T08:26:27.977-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:26:27.977-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:26:27.977-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:26:27.977-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:26:27.977-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:26:27.977-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:26:27.977-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:26:27.977-0500 [INFO]  CLI command args: []string{"terraform", "in", "terraform"}
+2025-11-06T08:26:28.820-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:26:28.820-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:26:28.820-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:26:28.820-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:26:28.820-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:26:28.820-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:26:28.820-0500 [INFO]  CLI args: []string{"terraform", "init"}
+2025-11-06T08:26:28.820-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T08:26:28.820-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:26:28.820-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:26:28.820-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:26:28.820-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:26:28.820-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T08:26:28.820-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:26:28.820-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:26:28.820-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:26:28.820-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:26:28.820-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:26:28.820-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:26:28.820-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:26:28.821-0500 [INFO]  CLI command args: []string{"init"}
+2025-11-06T08:26:28.821-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T08:26:28.821-0500 [TRACE] Meta.Backend: backend has not previously been initialized in this working directory
+2025-11-06T08:26:28.821-0500 [TRACE] Meta.Backend: moving from default local state only to "cloud" backend
+2025-11-06T08:26:28.821-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T08:26:28.827-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T08:26:28.854-0500 [TRACE] backend/local: state manager for workspace "default" will:
+ - read initial snapshot from terraform.tfstate
+ - write new snapshots to terraform.tfstate
+ - create any backup at terraform.tfstate.backup
+2025-11-06T08:26:28.855-0500 [TRACE] statemgr.Filesystem: reading initial snapshot from terraform.tfstate
+2025-11-06T08:26:28.855-0500 [TRACE] statemgr.Filesystem: snapshot file has nil snapshot, but that's okay
+2025-11-06T08:26:28.855-0500 [TRACE] statemgr.Filesystem: read nil snapshot
+2025-11-06T08:26:28.855-0500 [TRACE] Meta.Backend: ignoring local "default" workspace because its state is empty
+2025-11-06T08:26:28.855-0500 [TRACE] Meta.Backend: HCP Terraform or Terraform Enterprise mode initialization type: ConfigChangeInPlace
+2025-11-06T08:26:28.855-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T08:26:28.855-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T08:26:28.855-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T08:26:28.856-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T08:26:28.857-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T08:26:28.857-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T08:26:28.857-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:26:28.857-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:26:29.399-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T08:26:29.400-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T08:26:29.400-0500 [TRACE] Meta.selectWorkspace: automatically selecting the single workspace provided by the backend (tf-cloud-test)
+2025-11-06T08:26:29.404-0500 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2025-11-06T08:26:29.404-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T08:26:29.408-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T08:26:29.408-0500 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2025-11-06T08:26:29.611-0500 [TRACE] Intermediate state interval is set by header to 0s
+2025-11-06T08:26:29.611-0500 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2025-11-06T08:26:29.611-0500 [TRACE] HTTP client GET request to https://registry.terraform.io/.well-known/terraform.json
+2025-11-06T08:26:29.797-0500 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/versions
+2025-11-06T08:26:29.797-0500 [TRACE] HTTP client GET request to https://registry.terraform.io/v1/providers/hashicorp/aws/versions
+2025-11-06T08:26:30.025-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T08:26:30.025-0500 [TRACE] getproviders.SearchLocalDirectory: failed to resolve symlinks for .terraform/providers: lstat .terraform/providers: no such file or directory
+2025-11-06T08:26:30.025-0500 [TRACE] providercache.fillMetaCache: error while scanning directory .terraform/providers: cannot search .terraform/providers: lstat .terraform/providers: no such file or directory
+2025-11-06T08:26:30.025-0500 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/5.100.0/download/linux/amd64
+2025-11-06T08:26:30.025-0500 [TRACE] HTTP client GET request to https://registry.terraform.io/v1/providers/hashicorp/aws/5.100.0/download/linux/amd64
+2025-11-06T08:26:30.236-0500 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-aws/5.100.0/terraform-provider-aws_5.100.0_SHA256SUMS
+2025-11-06T08:26:30.236-0500 [TRACE] HTTP client GET request to https://releases.hashicorp.com/terraform-provider-aws/5.100.0/terraform-provider-aws_5.100.0_SHA256SUMS
+2025-11-06T08:26:30.482-0500 [DEBUG] GET https://releases.hashicorp.com/terraform-provider-aws/5.100.0/terraform-provider-aws_5.100.0_SHA256SUMS.72D7468F.sig
+2025-11-06T08:26:30.482-0500 [TRACE] HTTP client GET request to https://releases.hashicorp.com/terraform-provider-aws/5.100.0/terraform-provider-aws_5.100.0_SHA256SUMS.72D7468F.sig
+2025-11-06T08:26:30.528-0500 [TRACE] providercache.Dir.InstallPackage: installing registry.terraform.io/hashicorp/aws v5.100.0 from https://releases.hashicorp.com/terraform-provider-aws/5.100.0/terraform-provider-aws_5.100.0_linux_amd64.zip
+2025-11-06T08:26:30.528-0500 [TRACE] HTTP client GET request to https://releases.hashicorp.com/terraform-provider-aws/5.100.0/terraform-provider-aws_5.100.0_linux_amd64.zip
+2025-11-06T08:30:07.647-0500 [DEBUG] Provider signed by 34365D9472D7468F HashiCorp Security (hashicorp.com/security) <security@hashicorp.com>
+2025-11-06T08:30:09.630-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T08:30:09.630-0500 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v5.100.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64
+2025-11-06T08:30:09.630-0500 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 5.100.0
+2025-11-06T08:30:38.643-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:30:38.643-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:30:38.643-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:30:38.643-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:30:38.643-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:30:38.643-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:30:38.643-0500 [INFO]  CLI args: []string{"terraform", "plan"}
+2025-11-06T08:30:38.643-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T08:30:38.643-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:30:38.643-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:30:38.643-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:30:38.643-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:30:38.643-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T08:30:38.644-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:30:38.644-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:30:38.644-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:30:38.644-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:30:38.644-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:30:38.644-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:30:38.644-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:30:38.644-0500 [INFO]  CLI command args: []string{"plan"}
+2025-11-06T08:30:38.645-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T08:30:38.645-0500 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2025-11-06T08:30:38.645-0500 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2025-11-06T08:30:38.645-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T08:30:38.645-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T08:30:38.645-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T08:30:38.645-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T08:30:38.645-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T08:30:38.645-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T08:30:38.645-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:30:38.645-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:30:39.180-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T08:30:39.181-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T08:30:39.181-0500 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2025-11-06T08:30:39.181-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T08:30:39.181-0500 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v5.100.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64
+2025-11-06T08:30:39.181-0500 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 5.100.0
+2025-11-06T08:30:39.628-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T08:30:39.633-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T08:30:39.633-0500 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2025-11-06T08:30:39.767-0500 [INFO]  cloud: starting Plan operation
+2025-11-06T08:30:40.329-0500 [TRACE] backend/cloud: starting configuration upload at "/home/tac-course/tac-course/tac-course/lesson-11"
+2025-11-06T08:30:40.613-0500 [TRACE] backend/cloud: finished configuration upload
+2025-11-06T08:30:41.114-0500 [TRACE] backend/cloud: reading configuration status
+2025-11-06T08:30:41.219-0500 [TRACE] backend/cloud: configuration uploaded and ready
+2025-11-06T08:31:22.185-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:31:22.185-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:31:22.185-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:31:22.185-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:31:22.185-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:31:22.185-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:31:22.185-0500 [INFO]  CLI args: []string{"/usr/bin/terraform", "terraform", "app", "terraform"}
+2025-11-06T08:31:22.185-0500 [TRACE] Stdout is not a terminal
+2025-11-06T08:31:22.185-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:31:22.185-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:31:22.185-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:31:22.185-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:31:22.186-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T08:31:22.186-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:31:22.186-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:31:22.186-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:31:22.186-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:31:22.186-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:31:22.186-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:31:22.186-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:31:22.186-0500 [INFO]  CLI command args: []string{"terraform", "app", "terraform"}
+2025-11-06T08:31:23.153-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:31:23.153-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:31:23.153-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:31:23.153-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:31:23.153-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:31:23.153-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:31:23.153-0500 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-11-06T08:31:23.153-0500 [TRACE] Stdout is a terminal of width 107
+2025-11-06T08:31:23.153-0500 [TRACE] Stderr is a terminal of width 107
+2025-11-06T08:31:23.153-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:31:23.153-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:31:23.153-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:31:23.153-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T08:31:23.153-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:31:23.153-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:31:23.153-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:31:23.153-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:31:23.153-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:31:23.153-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:31:23.153-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:31:23.171-0500 [INFO]  CLI command args: []string{"apply"}
+2025-11-06T08:31:23.172-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T08:31:23.172-0500 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2025-11-06T08:31:23.172-0500 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2025-11-06T08:31:23.172-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T08:31:23.172-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T08:31:23.172-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T08:31:23.172-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T08:31:23.172-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T08:31:23.172-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T08:31:23.172-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:31:23.172-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:31:23.689-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T08:31:23.689-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T08:31:23.689-0500 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2025-11-06T08:31:23.689-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T08:31:23.689-0500 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v5.100.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64
+2025-11-06T08:31:23.689-0500 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 5.100.0
+2025-11-06T08:31:24.075-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T08:31:24.081-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T08:31:24.081-0500 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2025-11-06T08:31:24.197-0500 [INFO]  cloud: starting Apply operation
+2025-11-06T08:31:24.197-0500 [TRACE] Running new cloud plan for apply
+2025-11-06T08:31:24.495-0500 [TRACE] backend/cloud: starting configuration upload at "/home/tac-course/tac-course/tac-course/lesson-11"
+2025-11-06T08:31:24.803-0500 [TRACE] backend/cloud: finished configuration upload
+2025-11-06T08:31:25.303-0500 [TRACE] backend/cloud: reading configuration status
+2025-11-06T08:31:25.438-0500 [TRACE] backend/cloud: configuration uploaded and ready
+2025-11-06T08:45:22.129-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:45:22.129-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:45:22.129-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:45:22.129-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:45:22.129-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:45:22.129-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:45:22.129-0500 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-11-06T08:45:22.129-0500 [TRACE] Stdout is a terminal of width 86
+2025-11-06T08:45:22.129-0500 [TRACE] Stderr is a terminal of width 86
+2025-11-06T08:45:22.129-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:45:22.129-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:45:22.129-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:45:22.129-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T08:45:22.129-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:45:22.129-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:45:22.129-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:45:22.129-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:45:22.129-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:45:22.129-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:45:22.129-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:45:22.129-0500 [INFO]  CLI command args: []string{"apply"}
+2025-11-06T08:45:22.130-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T08:45:22.130-0500 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2025-11-06T08:45:22.130-0500 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2025-11-06T08:45:22.130-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T08:45:22.130-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T08:45:22.130-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T08:45:22.130-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T08:45:22.130-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T08:45:22.130-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T08:45:22.130-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:45:22.130-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:45:22.598-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T08:45:22.598-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T08:45:22.598-0500 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2025-11-06T08:45:22.598-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T08:45:22.598-0500 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v5.100.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64
+2025-11-06T08:45:22.598-0500 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 5.100.0
+2025-11-06T08:45:22.986-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T08:45:22.992-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T08:45:22.992-0500 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2025-11-06T08:45:23.117-0500 [INFO]  cloud: starting Apply operation
+2025-11-06T08:45:23.117-0500 [TRACE] Running new cloud plan for apply
+2025-11-06T08:45:23.414-0500 [TRACE] backend/cloud: starting configuration upload at "/home/tac-course/tac-course/tac-course/lesson-11"
+2025-11-06T08:45:23.794-0500 [TRACE] backend/cloud: finished configuration upload
+2025-11-06T08:45:24.295-0500 [TRACE] backend/cloud: reading configuration status
+2025-11-06T08:45:24.408-0500 [TRACE] backend/cloud: configuration uploaded and ready
+2025-11-06T08:58:15.181-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T08:58:15.181-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T08:58:15.181-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T08:58:15.181-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T08:58:15.181-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T08:58:15.181-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T08:58:15.181-0500 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-11-06T08:58:15.181-0500 [TRACE] Stdout is a terminal of width 86
+2025-11-06T08:58:15.181-0500 [TRACE] Stderr is a terminal of width 86
+2025-11-06T08:58:15.181-0500 [TRACE] Stdin is a terminal
+2025-11-06T08:58:15.181-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T08:58:15.181-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T08:58:15.181-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T08:58:15.181-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T08:58:15.181-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T08:58:15.181-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T08:58:15.181-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T08:58:15.181-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T08:58:15.181-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T08:58:15.181-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T08:58:15.182-0500 [INFO]  CLI command args: []string{"apply"}
+2025-11-06T08:58:15.182-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T08:58:15.182-0500 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2025-11-06T08:58:15.182-0500 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2025-11-06T08:58:15.182-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T08:58:15.182-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T08:58:15.182-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T08:58:15.182-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T08:58:15.182-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T08:58:15.182-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T08:58:15.182-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:58:15.182-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T08:58:15.850-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T08:58:15.850-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T08:58:15.850-0500 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2025-11-06T08:58:15.850-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T08:58:15.850-0500 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v5.100.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64
+2025-11-06T08:58:15.850-0500 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 5.100.0
+2025-11-06T08:58:16.277-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T08:58:16.283-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T08:58:16.284-0500 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2025-11-06T08:58:16.444-0500 [INFO]  cloud: starting Apply operation
+2025-11-06T08:58:16.444-0500 [TRACE] Running new cloud plan for apply
+2025-11-06T08:58:16.697-0500 [TRACE] backend/cloud: starting configuration upload at "/home/tac-course/tac-course/tac-course/lesson-11"
+2025-11-06T08:58:17.018-0500 [TRACE] backend/cloud: finished configuration upload
+2025-11-06T08:58:17.519-0500 [TRACE] backend/cloud: reading configuration status
+2025-11-06T08:58:17.662-0500 [TRACE] backend/cloud: configuration uploaded and ready
+2025-11-06T09:11:29.746-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T09:11:29.746-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T09:11:29.746-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T09:11:29.746-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T09:11:29.746-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T09:11:29.746-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T09:11:29.746-0500 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-11-06T09:11:29.746-0500 [TRACE] Stdout is a terminal of width 86
+2025-11-06T09:11:29.746-0500 [TRACE] Stderr is a terminal of width 86
+2025-11-06T09:11:29.746-0500 [TRACE] Stdin is a terminal
+2025-11-06T09:11:29.746-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T09:11:29.746-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T09:11:29.746-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T09:11:29.746-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T09:11:29.746-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T09:11:29.746-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T09:11:29.746-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T09:11:29.746-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T09:11:29.746-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T09:11:29.746-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T09:11:29.747-0500 [INFO]  CLI command args: []string{"apply"}
+2025-11-06T09:11:29.747-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T09:11:29.747-0500 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2025-11-06T09:11:29.747-0500 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2025-11-06T09:11:29.747-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T09:11:29.747-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T09:11:29.747-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T09:11:29.747-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T09:11:29.747-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T09:11:29.747-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T09:11:29.747-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T09:11:29.747-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T09:11:30.311-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T09:11:30.311-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T09:11:30.311-0500 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2025-11-06T09:11:30.311-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T09:11:30.311-0500 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v5.100.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64
+2025-11-06T09:11:30.311-0500 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 5.100.0
+2025-11-06T09:11:30.825-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T09:11:30.831-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T09:11:30.831-0500 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2025-11-06T09:11:30.927-0500 [INFO]  cloud: starting Apply operation
+2025-11-06T09:11:30.927-0500 [TRACE] Running new cloud plan for apply
+2025-11-06T09:11:31.253-0500 [TRACE] backend/cloud: starting configuration upload at "/home/tac-course/tac-course/tac-course/lesson-11"
+2025-11-06T09:11:31.518-0500 [TRACE] backend/cloud: finished configuration upload
+2025-11-06T09:11:32.018-0500 [TRACE] backend/cloud: reading configuration status
+2025-11-06T09:11:32.139-0500 [TRACE] backend/cloud: configuration uploaded and ready
+2025-11-06T09:12:07.737-0500 [DEBUG] performing request: method=GET url=https://app.terraform.io/api/v2/plans/plan-nb2VNXEd9tXmTmvH/json-output-redacted
+2025-11-06T09:12:08.519-0500 [DEBUG] command: asking for input: "\nDo you want to perform these actions in workspace \"tf-cloud-test\"?"
+2025-11-06T09:13:47.436-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T09:13:47.436-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T09:13:47.436-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T09:13:47.436-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T09:13:47.436-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T09:13:47.436-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T09:13:47.436-0500 [INFO]  CLI args: []string{"terraform", "apply"}
+2025-11-06T09:13:47.436-0500 [TRACE] Stdout is a terminal of width 86
+2025-11-06T09:13:47.436-0500 [TRACE] Stderr is a terminal of width 86
+2025-11-06T09:13:47.436-0500 [TRACE] Stdin is a terminal
+2025-11-06T09:13:47.436-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T09:13:47.436-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T09:13:47.436-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T09:13:47.436-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T09:13:47.436-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T09:13:47.436-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T09:13:47.436-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T09:13:47.436-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T09:13:47.437-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T09:13:47.437-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T09:13:47.437-0500 [INFO]  CLI command args: []string{"apply"}
+2025-11-06T09:13:47.437-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T09:13:47.437-0500 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2025-11-06T09:13:47.437-0500 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2025-11-06T09:13:47.437-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T09:13:47.437-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T09:13:47.437-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T09:13:47.437-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T09:13:47.437-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T09:13:47.437-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T09:13:47.437-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T09:13:47.437-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T09:13:47.955-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T09:13:47.955-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T09:13:47.955-0500 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2025-11-06T09:13:47.956-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T09:13:47.956-0500 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v5.100.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64
+2025-11-06T09:13:47.956-0500 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 5.100.0
+2025-11-06T09:13:48.345-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T09:13:48.351-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T09:13:48.351-0500 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2025-11-06T09:13:48.503-0500 [INFO]  cloud: starting Apply operation
+2025-11-06T09:13:48.503-0500 [TRACE] Running new cloud plan for apply
+2025-11-06T09:13:49.032-0500 [TRACE] backend/cloud: starting configuration upload at "/home/tac-course/tac-course/tac-course/lesson-11"
+2025-11-06T09:13:49.317-0500 [TRACE] backend/cloud: finished configuration upload
+2025-11-06T09:13:49.818-0500 [TRACE] backend/cloud: reading configuration status
+2025-11-06T09:13:50.454-0500 [TRACE] backend/cloud: configuration uploaded and ready
+2025-11-06T09:14:25.015-0500 [DEBUG] performing request: method=GET url=https://app.terraform.io/api/v2/plans/plan-pxCqgcRThZiK2SZq/json-output-redacted
+2025-11-06T09:14:25.937-0500 [DEBUG] command: asking for input: "\nDo you want to perform these actions in workspace \"tf-cloud-test\"?"
+2025-11-06T09:37:49.766-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T09:37:49.767-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T09:37:49.767-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T09:37:49.767-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T09:37:49.767-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T09:37:49.767-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T09:37:49.767-0500 [INFO]  CLI args: []string{"/usr/bin/terraform", "terraform", "des", "terraform"}
+2025-11-06T09:37:49.767-0500 [TRACE] Stdout is not a terminal
+2025-11-06T09:37:49.767-0500 [TRACE] Stderr is a terminal of width 86
+2025-11-06T09:37:49.767-0500 [TRACE] Stdin is a terminal
+2025-11-06T09:37:49.767-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T09:37:49.767-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T09:37:49.767-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T09:37:49.767-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T09:37:49.767-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T09:37:49.767-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T09:37:49.767-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T09:37:49.767-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T09:37:49.767-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T09:37:49.767-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T09:37:49.767-0500 [INFO]  CLI command args: []string{"terraform", "des", "terraform"}
+2025-11-06T09:37:50.519-0500 [INFO]  Terraform version: 1.13.1
+2025-11-06T09:37:50.519-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-06T09:37:50.519-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-06T09:37:50.519-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-06T09:37:50.519-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-06T09:37:50.519-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-06T09:37:50.519-0500 [INFO]  CLI args: []string{"terraform", "destroy"}
+2025-11-06T09:37:50.519-0500 [TRACE] Stdout is a terminal of width 86
+2025-11-06T09:37:50.519-0500 [TRACE] Stderr is a terminal of width 86
+2025-11-06T09:37:50.519-0500 [TRACE] Stdin is a terminal
+2025-11-06T09:37:50.519-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-06T09:37:50.519-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-06T09:37:50.519-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-06T09:37:50.519-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-06T09:37:50.519-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-06T09:37:50.519-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-06T09:37:50.519-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-06T09:37:50.519-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-06T09:37:50.519-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-06T09:37:50.519-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-06T09:37:50.520-0500 [INFO]  CLI command args: []string{"destroy"}
+2025-11-06T09:37:50.520-0500 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2257900344
+2025-11-06T09:37:50.520-0500 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2025-11-06T09:37:50.520-0500 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2025-11-06T09:37:50.520-0500 [TRACE] cloud: using hostname "" from TF_CLOUD_HOSTNAME variable
+2025-11-06T09:37:50.520-0500 [TRACE] cloud: using default hostname "app.terraform.io"
+2025-11-06T09:37:50.520-0500 [TRACE] cloud: using organization "taemin_tach_live" from cloud config block
+2025-11-06T09:37:50.520-0500 [TRACE] cloud: found workspace name "tf-cloud-test" in cloud config block
+2025-11-06T09:37:50.520-0500 [TRACE] cloud: using project "" from TF_CLOUD_PROJECT variable
+2025-11-06T09:37:50.520-0500 [TRACE] cloud: using workspace name "tf-cloud-test" from cloud config block
+2025-11-06T09:37:50.520-0500 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2025-11-06T09:37:50.520-0500 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2025-11-06T09:37:51.238-0500 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2025-11-06T09:37:51.238-0500 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2025-11-06T09:37:51.238-0500 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2025-11-06T09:37:51.239-0500 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2025-11-06T09:37:51.239-0500 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/aws v5.100.0 for linux_amd64 at .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64
+2025-11-06T09:37:51.239-0500 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/aws/5.100.0/linux_amd64 as a candidate package for registry.terraform.io/hashicorp/aws 5.100.0
+2025-11-06T09:37:51.783-0500 [DEBUG] checking for provisioner in "."
+2025-11-06T09:37:51.789-0500 [DEBUG] checking for provisioner in "/usr/bin"
+2025-11-06T09:37:51.789-0500 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2025-11-06T09:37:51.901-0500 [INFO]  cloud: starting Apply operation
+2025-11-06T09:37:51.901-0500 [TRACE] Running new cloud plan for apply
+2025-11-06T09:37:52.077-0500 [TRACE] backend/cloud: starting configuration upload at "/home/tac-course/tac-course/tac-course/lesson-11"
+2025-11-06T09:37:52.389-0500 [TRACE] backend/cloud: finished configuration upload
+2025-11-06T09:37:52.889-0500 [TRACE] backend/cloud: reading configuration status
+2025-11-06T09:37:53.004-0500 [TRACE] backend/cloud: configuration uploaded and ready
+2025-11-06T09:38:29.341-0500 [DEBUG] performing request: method=GET url=https://app.terraform.io/api/v2/plans/plan-uo3Bcn1dVdJzeAyy/json-output-redacted
+2025-11-06T09:38:30.394-0500 [DEBUG] command: asking for input: "\nDo you really want to destroy all resources in workspace \"tf-cloud-test\"?"
+2025-11-07T06:43:48.278-0500 [INFO]  Terraform version: 1.13.1
+2025-11-07T06:43:48.278-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-11-07T06:43:48.278-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2025-11-07T06:43:48.278-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-11-07T06:43:48.278-0500 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2025-11-07T06:43:48.278-0500 [INFO]  Go runtime version: go1.24.5
+2025-11-07T06:43:48.278-0500 [INFO]  CLI args: []string{"terraform", "logout"}
+2025-11-07T06:43:48.278-0500 [TRACE] Stdout is a terminal of width 86
+2025-11-07T06:43:48.278-0500 [TRACE] Stderr is a terminal of width 86
+2025-11-07T06:43:48.278-0500 [TRACE] Stdin is a terminal
+2025-11-07T06:43:48.278-0500 [DEBUG] Attempting to open CLI config file: /home/tac-course/.terraformrc
+2025-11-07T06:43:48.278-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-11-07T06:43:48.278-0500 [INFO]  Loading CLI configuration from /home/tac-course/.terraform.d/credentials.tfrc.json
+2025-11-07T06:43:48.278-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-11-07T06:43:48.278-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.terraform.d/plugins
+2025-11-07T06:43:48.278-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/terraform/plugins
+2025-11-07T06:43:48.278-0500 [DEBUG] ignoring non-existing provider search directory /home/tac-course/.local/share/flatpak/exports/share/terraform/plugins
+2025-11-07T06:43:48.278-0500 [DEBUG] ignoring non-existing provider search directory /var/lib/flatpak/exports/share/terraform/plugins
+2025-11-07T06:43:48.278-0500 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-11-07T06:43:48.278-0500 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-11-07T06:43:48.280-0500 [INFO]  CLI command args: []string{"logout"}
